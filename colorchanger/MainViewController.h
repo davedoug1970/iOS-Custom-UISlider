@@ -12,7 +12,13 @@
 
 }
 
+@property (nonatomic,retain) IBOutlet UILabel *valueLabel;
+@property (nonatomic,retain) IBOutlet UISlider *customSlider;
+@property (nonatomic,retain) IBOutlet UIImageView *testImage;
 
 - (IBAction)showInfo:(id)sender;
+- (IBAction)changedSlider1:(UISlider *)slider;
+- (IBAction)changedSlider2:(UISlider *)slider;
+
 
 @end

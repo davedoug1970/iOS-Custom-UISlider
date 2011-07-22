@@ -18,6 +18,8 @@
 		41A6ED0B13D9C54F00EBEB19 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED0A13D9C54F00EBEB19 /* MainView.xib */; };
 		41A6ED0E13D9C54F00EBEB19 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A6ED0D13D9C54F00EBEB19 /* FlipsideViewController.m */; };
 		41A6ED1013D9C54F00EBEB19 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED0F13D9C54F00EBEB19 /* FlipsideView.xib */; };
+		41A6ED1F13D9D50C00EBEB19 /* colorslider.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED1E13D9D50C00EBEB19 /* colorslider.png */; };
+		41A6ED2113D9E1F900EBEB19 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED2013D9E1F900EBEB19 /* marker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +27,21 @@
 		41A6ECF213D9C54E00EBEB19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41A6ECF413D9C54E00EBEB19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41A6ECF613D9C54E00EBEB19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		41A6ECFA13D9C54E00EBEB19 /* colorchanger-Info.plist */ = {isa = PBXFileReference; path = "colorchanger-Info.plist"; sourceTree = "<group>"; };
+		41A6ECFA13D9C54E00EBEB19 /* colorchanger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colorchanger-Info.plist"; sourceTree = "<group>"; };
 		41A6ECFC13D9C54E00EBEB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		41A6ECFE13D9C54E00EBEB19 /* colorchanger-Prefix.pch */ = {isa = PBXFileReference; path = "colorchanger-Prefix.pch"; sourceTree = "<group>"; };
+		41A6ECFE13D9C54E00EBEB19 /* colorchanger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colorchanger-Prefix.pch"; sourceTree = "<group>"; };
 		41A6ECFF13D9C54E00EBEB19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		41A6ED0113D9C54E00EBEB19 /* colorchangerAppDelegate.h */ = {isa = PBXFileReference; path = colorchangerAppDelegate.h; sourceTree = "<group>"; };
+		41A6ED0113D9C54E00EBEB19 /* colorchangerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colorchangerAppDelegate.h; sourceTree = "<group>"; };
 		41A6ED0213D9C54E00EBEB19 /* colorchangerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorchangerAppDelegate.m; sourceTree = "<group>"; };
 		41A6ED0513D9C54F00EBEB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		41A6ED0713D9C54F00EBEB19 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		41A6ED0713D9C54F00EBEB19 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		41A6ED0813D9C54F00EBEB19 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		41A6ED0A13D9C54F00EBEB19 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		41A6ED0C13D9C54F00EBEB19 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		41A6ED0C13D9C54F00EBEB19 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		41A6ED0D13D9C54F00EBEB19 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		41A6ED0F13D9C54F00EBEB19 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		41A6ED1E13D9D50C00EBEB19 /* colorslider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorslider.png; sourceTree = "<group>"; };
+		41A6ED2013D9E1F900EBEB19 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		41A6ECF813D9C54E00EBEB19 /* colorchanger */ = {
 			isa = PBXGroup;
 			children = (
+				41A6ED1E13D9D50C00EBEB19 /* colorslider.png */,
+				41A6ED2013D9E1F900EBEB19 /* marker.png */,
 				41A6ED0113D9C54E00EBEB19 /* colorchangerAppDelegate.h */,
 				41A6ED0213D9C54E00EBEB19 /* colorchangerAppDelegate.m */,
 				41A6ED0413D9C54F00EBEB19 /* MainWindow.xib */,
@@ -160,6 +166,8 @@
 				41A6ED0613D9C54F00EBEB19 /* MainWindow.xib in Resources */,
 				41A6ED0B13D9C54F00EBEB19 /* MainView.xib in Resources */,
 				41A6ED1013D9C54F00EBEB19 /* FlipsideView.xib in Resources */,
+				41A6ED1F13D9D50C00EBEB19 /* colorslider.png in Resources */,
+				41A6ED2113D9E1F900EBEB19 /* marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
