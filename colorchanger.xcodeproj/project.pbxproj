@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA2EBE513DA6CCF00F8BA8F /* SSColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2EBE413DA6CCF00F8BA8F /* SSColorSlider.m */; };
 		41A6ECF313D9C54E00EBEB19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A6ECF213D9C54E00EBEB19 /* UIKit.framework */; };
 		41A6ECF513D9C54E00EBEB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A6ECF413D9C54E00EBEB19 /* Foundation.framework */; };
 		41A6ECF713D9C54E00EBEB19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A6ECF613D9C54E00EBEB19 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BA2EBE313DA6CCF00F8BA8F /* SSColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSColorSlider.h; sourceTree = "<group>"; };
+		3BA2EBE413DA6CCF00F8BA8F /* SSColorSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSColorSlider.m; sourceTree = "<group>"; };
 		41A6ECEE13D9C54E00EBEB19 /* colorchanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorchanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A6ECF213D9C54E00EBEB19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41A6ECF413D9C54E00EBEB19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +103,8 @@
 				41A6ED0D13D9C54F00EBEB19 /* FlipsideViewController.m */,
 				41A6ED0F13D9C54F00EBEB19 /* FlipsideView.xib */,
 				41A6ECF913D9C54E00EBEB19 /* Supporting Files */,
+				3BA2EBE313DA6CCF00F8BA8F /* SSColorSlider.h */,
+				3BA2EBE413DA6CCF00F8BA8F /* SSColorSlider.m */,
 			);
 			path = colorchanger;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				41A6ED0313D9C54F00EBEB19 /* colorchangerAppDelegate.m in Sources */,
 				41A6ED0913D9C54F00EBEB19 /* MainViewController.m in Sources */,
 				41A6ED0E13D9C54F00EBEB19 /* FlipsideViewController.m in Sources */,
+				3BA2EBE513DA6CCF00F8BA8F /* SSColorSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +292,7 @@
 				41A6ED1513D9C54F00EBEB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
