@@ -27,9 +27,9 @@
         [customSlider setMaximumValue:.99999];
         [customSlider setContinuous:YES];
         [customSlider setValue:.50];
-        [customSlider setThumbImage: [UIImage imageNamed:@"marker.png"] forState:UIControlStateNormal];
-        [customSlider setThumbImage: [UIImage imageNamed:@"marker.png"] forState:UIControlStateSelected];
-        [customSlider setThumbImage: [UIImage imageNamed:@"marker.png"] forState:UIControlStateHighlighted];
+        //[customSlider setThumbImage: [UIImage imageNamed:@"marker.png"] forState:UIControlStateNormal];
+        //[customSlider setThumbImage: [UIImage imageNamed:@"marker.png"] forState:UIControlStateSelected];
+        //[customSlider setThumbImage: [UIImage imageNamed:@"marker.png"] forState:UIControlStateHighlighted];
         [customSlider setBackgroundColor:[UIColor clearColor]];
         
         [[self view] addSubview:customSlider];
