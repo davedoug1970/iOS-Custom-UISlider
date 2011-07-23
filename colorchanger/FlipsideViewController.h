@@ -3,7 +3,7 @@
 //  colorchanger
 //
 //  Created by Douglas, David on 7/22/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Software Smoothie. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

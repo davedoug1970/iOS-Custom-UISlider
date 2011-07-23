@@ -3,7 +3,7 @@
 //  colorchanger
 //
 //  Created by Douglas, David on 7/22/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Software Smoothie. All rights reserved.
 //
 
 #import "FlipsideViewController.h"
@@ -13,12 +13,8 @@
 }
 
 @property (nonatomic,retain) IBOutlet UILabel *valueLabel;
-@property (nonatomic,retain) IBOutlet UISlider *customSlider;
-@property (nonatomic,retain) IBOutlet UIImageView *testImage;
 
 - (IBAction)showInfo:(id)sender;
-- (IBAction)changedSlider1:(UISlider *)slider;
-- (IBAction)changedSlider2:(UISlider *)slider;
-
+- (IBAction)changedSlider:(UISlider *)slider;
 
 @end

@@ -20,7 +20,6 @@
 		41A6ED0E13D9C54F00EBEB19 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A6ED0D13D9C54F00EBEB19 /* FlipsideViewController.m */; };
 		41A6ED1013D9C54F00EBEB19 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED0F13D9C54F00EBEB19 /* FlipsideView.xib */; };
 		41A6ED1F13D9D50C00EBEB19 /* colorslider.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED1E13D9D50C00EBEB19 /* colorslider.png */; };
-		41A6ED2113D9E1F900EBEB19 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A6ED2013D9E1F900EBEB19 /* marker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		41A6ED0D13D9C54F00EBEB19 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		41A6ED0F13D9C54F00EBEB19 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		41A6ED1E13D9D50C00EBEB19 /* colorslider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorslider.png; sourceTree = "<group>"; };
-		41A6ED2013D9E1F900EBEB19 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				41A6ED1E13D9D50C00EBEB19 /* colorslider.png */,
-				41A6ED2013D9E1F900EBEB19 /* marker.png */,
 				41A6ED0113D9C54E00EBEB19 /* colorchangerAppDelegate.h */,
 				41A6ED0213D9C54E00EBEB19 /* colorchangerAppDelegate.m */,
 				41A6ED0413D9C54F00EBEB19 /* MainWindow.xib */,
@@ -172,7 +169,6 @@
 				41A6ED0B13D9C54F00EBEB19 /* MainView.xib in Resources */,
 				41A6ED1013D9C54F00EBEB19 /* FlipsideView.xib in Resources */,
 				41A6ED1F13D9D50C00EBEB19 /* colorslider.png in Resources */,
-				41A6ED2113D9E1F900EBEB19 /* marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

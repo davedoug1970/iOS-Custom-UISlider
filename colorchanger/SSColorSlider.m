@@ -3,7 +3,7 @@
 //  colorchanger
 //
 //  Created by David Douglas on 7/22/11.
-//  Copyright 2011 Software Solutions. All rights reserved.
+//  Copyright 2011 Software Smoothie. All rights reserved.
 //
 
 #import "SSColorSlider.h"
@@ -36,7 +36,7 @@
 {
     [super setValue:value animated:animated];
     
-    UIGraphicsBeginImageContext(CGSizeMake((self.frame.size.width * value) + 9,  self.frame.size.height/3));
+    UIGraphicsBeginImageContext(CGSizeMake((self.frame.size.width * value),  self.frame.size.height/3));
     UIImage *colorSliderImg = [UIImage imageNamed:@"colorslider.png"];
     [colorSliderImg drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height/3)];
     UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
@@ -44,7 +44,7 @@
     
     [self setMinimumTrackImage:newImage forState:UIControlStateNormal];
     
-    UIGraphicsBeginImageContext(CGSizeMake((self.frame.size.width * (1 - value)) + 9,  self.frame.size.height/3));
+    UIGraphicsBeginImageContext(CGSizeMake((self.frame.size.width * (1 - value)),  self.frame.size.height/3));
     [colorSliderImg drawInRect:CGRectMake(-(self.frame.size.width * value), 0, self.frame.size.width, self.frame.size.height/3)];
     newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
